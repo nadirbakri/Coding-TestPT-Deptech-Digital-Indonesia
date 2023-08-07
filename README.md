@@ -16,8 +16,10 @@ Jalankan command tersebut untuk menginstall npm
 Jalankan command tersebut untuk migrate database
 
 ### php artisan db:seed --class=AdminSeeder
-Jalankan command tersebut untuk generate Admin Default dengan email : nadirbakri@test.com dan password : 123321 (not implemented)
+Jalankan command tersebut untuk generate Admin Default dengan email : nadirbakri@test.com dan password : 123321 (login not implemented)
+
+### php artisan route:list
+Jalankan command tersebut untuk mengetahui route yang ada pada aplikasi
 
 ### php artisan serve
 Jalankan command tersebut untuk memulai lokal server anda.
-
